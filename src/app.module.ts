@@ -9,10 +9,10 @@ import { AuthModule } from './auth/auth.module';
     BooksModule,
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'database-1.cizfxlndzqby.eu-north-1.rds.amazonaws.com',
+      host: '',
       port: 3306,
-      username: 'admin',
-      password: 'hqQnAwQuDO3acIIpIIUu',
+      username: '',
+      password: '',
       database: 'readconnect',
       autoLoadEntities: true,
       synchronize: true,
